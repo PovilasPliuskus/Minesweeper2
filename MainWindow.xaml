@@ -1,0 +1,33 @@
+﻿<Window x:Class="MineSweeper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MineSweeper"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Title="MineSweeper" Width="Auto" Height="Auto" SizeToContent="WidthAndHeight" Icon="images/icon.ico">
+    <StackPanel>
+        <Menu>
+            <MenuItem Header="New Game">
+                <MenuItem Header="Begginer" x:Name="Begginer" Click="Begginer_Click "/>
+                <MenuItem Header="Advanced" x:Name="Advanced" Click="Advanced_Click"/>
+                <MenuItem Header="Expert" x:Name="Expert" Click="Expert_Click"/>
+            </MenuItem>
+            <MenuItem Header="Help">
+                <MenuItem Header="About" x:Name="About" Click="About_Click"/>
+                <MenuItem Header="Rules" x:Name="Rules" Click="Rules_Click"/>
+            </MenuItem>
+        </Menu>
+        <Border BorderThickness="2">
+            <StackPanel>
+                <TextBlock Text="Bombs left: "/>
+                <TextBlock Text="Time: "/>
+            </StackPanel>
+        </Border>
+        <Border BorderThickness="10">
+            <Grid Name="gameGrid" Margin="0 0 0 10"/>
+        </Border>
+    </StackPanel>
+</Window>

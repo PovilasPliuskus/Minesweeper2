@@ -1,0 +1,6 @@
+C:\Users\user\Documents\Programming\Projects\MineSweeper\MineSweeper\obj\Release\net6.0-windows\MineSweeper.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Programming\Projects\MineSweeper\MineSweeper\obj\Release\net6.0-windows\MainWindow.g.cs
+C:\Users\user\Documents\Programming\Projects\MineSweeper\MineSweeper\obj\Release\net6.0-windows\App.g.cs
+C:\Users\user\Documents\Programming\Projects\MineSweeper\MineSweeper\obj\Release\net6.0-windows\MineSweeper_Content.g.cs
+C:\Users\user\Documents\Programming\Projects\MineSweeper\MineSweeper\obj\Release\net6.0-windows\MineSweeper_MarkupCompile.cache
+C:\Users\user\Documents\Programming\Projects\MineSweeper\MineSweeper\obj\Release\net6.0-windows\MineSweeper_MarkupCompile.lref
